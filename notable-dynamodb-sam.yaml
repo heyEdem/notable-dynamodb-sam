@@ -6,7 +6,7 @@ Resources:
   TodoTable:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: TodoItems
+      TableName: Notable
       AttributeDefinitions:
         - AttributeName: id
           AttributeType: N
